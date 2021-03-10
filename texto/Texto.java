@@ -164,8 +164,6 @@ public class Texto {
             System.out.println("\nEscreva o texto:");
             escrita = in.nextLine();
 
-            String[] esc = escrita.split(" ");
-
             if (apagar == 1) {
 
                 try {
