@@ -43,7 +43,9 @@ public class ImcTeste {
     }
 
     @After
-    public void fechar() throws IOException { saida.close(); }
+    public void fechar() throws IOException { 
+        saida.close(); 
+    }
 
     @Test
     public void testeSalvarRelatorioImc() {
